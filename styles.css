@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root {
+    --text-color: #222222;
+    --text-background-color: #ffffff;
+    --border-color: #999999;
+    --background-color: #000000;
+  }
+  
+  *{
+      padding:0;
+      margin:0;
+  }
+  
+  body {
+      font-family: 'Architects Daughter', cursive;
+      font-size:24px;
+      color: var(--text-color);
+      font-weight: bold;
+      background-color: var(--background-color);
+  }
+  
+/* splash */
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+  div.container p img {
+    height: 100px;
+}
+
+div.container p {
+    margin: 0;
+}
+
+/* main */
+
+  #mainbox {
+      width: 75%;
+      height: 90vmin;
+      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-size: cover;
+      border: 0.125vmin solid var(--border-color);
+  }
+  
+  #textbox {
+      
+      border: 0.125vmin solid var(--border-color);
+      background: var(--text-background-color);
+      width: 95%;
+      height: 25%;
+      padding: 0.5rem;
+      overflow: auto;
+      word-break: break-word;
+      margin: auto;
+      position: absolute;
+      bottom: 2%;
+      left: 50%;
+      transform: translate(-50%, 0);
+  }
+  
+  
+  #optionsbox {
+      color:blue;
+  }
+  
+  #optionsbox > div:hover {
+      color:red;
+      cursor:pointer;
+  }
+  
+  #spritebox {
+      
+      max-width: 30%;
+      
+      z-index: -1;
+      position: absolute;
+      bottom: 30%;
+  }
+  
+  .rightalign {
+      right: 5%;
+      bottom:-5%;
+  }
+  
+  .leftalign {
+      left: 5%;
+  }
+  
+  #spritebox img {
+      max-width:100%;
+  }
+  
+  #namebox {
+      background: var(--text-background-color);
+      padding: 0.5rem;
+      border: 0.125vmin solid var(--border-color);      
+      position: absolute;
+      bottom: 32%;
+      left: 1.5%;
+  }

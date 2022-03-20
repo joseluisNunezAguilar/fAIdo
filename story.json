@@ -1,0 +1,138 @@
+{ 
+    "Characters": {
+        "fAIdo": {
+        	"Happy": "img/puppy-happy.png",
+        	"Hungry": "img/puppy-hungry.png",
+        	"Bored": "img/puppy-bored.png",
+			"Playful": "img/puppy-playful.png",
+			"Play Ready": "img/puppy-playReady.png",
+			"Asleep": "img/puppy-asleep.png",			
+			"Sad": "img/puppy-sad.png"
+		},
+        "Me": {
+        	"Happy": "",
+        	"Thinking": "",
+        	"Peeved": ""
+        }
+    },
+    
+    "Scene1": {
+    	"Background": "img/background.png",
+    	"SCENES": {
+			"Scene0" : {
+				"Character": "fAIdo",
+				"Sprite": "Happy",
+				"SceneText": "Hello there! My name is fAIdo - pronounced like Fido - and I’m an AI-powered virtual pet."
+			},
+			"Scene1" : {
+				"Character": "fAIdo",
+				"Sprite": "Happy",
+				"SceneText": "Do you know what AI is?",
+				"Options":
+				{
+					"Of course! It stands for Artificial Intelligence!": "Scene3",
+					"They're vowels!": "Scene2"
+				}
+			},
+			"Scene2" : {
+				"Character": "fAIdo",
+				"Sprite": "Play Ready",
+				"SceneText": "Correct! In fact, the A stands for Artificial and the I stands for Intelligence."
+				
+			},
+			"Scene3" : {
+				"Character": "fAIdo",
+				"Sprite": "Play Ready",
+				"SceneText": "Indeed, Artificial intelligence (AI) makes it possible for me to do tasks that are usually done by humans because they require human intelligence."
+				
+			},
+			"Scene4" : {
+				"Character": "fAIdo",
+				"Sprite": "Happy",
+				"SceneText": "For example, the next time we meet, I can recognize you by your face because I've imprinted an image of your face in my memory."
+				
+			},
+			"Scene5" : {
+				"Character": "fAIdo",
+				"Sprite": "Happy",
+				"SceneText": "Moreover, the reason why you don't hear me bark 'Woof woof!' like other dogs would is because AI allows me to convert my barks into your English language."
+
+			},
+			"Scene6" : {
+				"Character": "fAIdo",
+				"Sprite": "Happy",
+				"SceneText": "With code as my DNA or building block of life, I'm designed to have a lifelike personality, complete with emotions and biological needs."
+				
+			},
+			"Scene7" : {
+				"Character": "Me",
+				"Sprite": "Happy",
+				"SceneText": "",
+				"Options":
+				{
+					"What kinds of emotions?": "Scene9",
+					"Biological needs?": "Scene8"
+				}
+			},
+			"Scene8" : {
+				"Character": "fAIdo",
+				"Sprite": "Play Ready",
+				"SceneText": "Like eating and, you know... pooping."
+				
+			},
+			"Scene9" : {
+				"Character": "fAIdo",
+				"Sprite": "Playful",
+				"SceneText": "When I'm feeling playful, I hope you'll play one of my favorite games with me."
+				
+			},
+			"Scene10" : {
+				"Character": "fAIdo",
+				"Sprite": "Bored",
+				"SceneText": "I can get bored if you don't chat with or respond to me."
+				
+			},
+			"Scene11" : {
+				"Character": "fAIdo",
+				"Sprite": "Sad",
+				"SceneText": "And if you ignore me for too long, then I get sad."
+				
+			},
+			"Scene12" : {
+				"Character": "fAIdo",
+				"Sprite": "Hungry",
+				"SceneText": "You'll definitely hear from me when I'm hungry."
+				
+			},
+			"Scene13" : {
+				"Character": "fAIdo",
+				"Sprite": "Happy",
+				"SceneText": "You can also teach me tricks. Or I can even learn on my own."
+				
+			},
+
+
+
+
+
+			"Scene29" : {
+				"Character": "Me",
+				"Sprite": "Restr",
+				"SceneText": " ",
+				"Options":
+				{
+					"Finish?": "Scene10",
+					"Restart?": "Scene0"
+				}
+				
+			},
+			"Scene30" : {
+				"Character": "Me",
+				"Sprite": "Playful",
+				"SceneText": "Thank you for reading!",
+				"NextScene": "End"
+				
+			}
+		}
+    }
+}
